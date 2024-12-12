@@ -42,7 +42,7 @@
             margin-top: 20px;
         }
 
-        .controls a {
+        .controls a, .controls button {
             display: inline-block;
             padding: 10px 20px;
             background-color: #007BFF;
@@ -51,10 +51,37 @@
             border-radius: 5px;
             margin: 10px;
             cursor: pointer;
+            border: none;
         }
 
-        .controls a:hover {
+        .controls a:hover, .controls button:hover {
             background-color: #0056b3;
+        }
+
+        .input-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .input-container input {
+            width: 70%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        .input-container button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .input-container button:hover {
+            background-color: #218838;
         }
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/hls.js/1.1.5/hls.min.js"></script>
@@ -69,18 +96,13 @@
         <video id="video" controls></video>
     </div>
 
-    <!-- Botones de control para cambiar el stream -->
-    <div class="controls">
-        <a href="#" onclick="playStream('https://cxvpy2s.la10tv.com/espnpremium/tracks-v1a1/mono.m3u8?token=a22475cfc7b14033d9954e68302a94d9bea49834-fe-1734007390-1733971390')">HISTORY</a>
-        
+    <!-- Campo para ingresar un enlace y probar -->
+    <div class="input-container">
+        <input type="text" id="streamUrl" placeholder="Ingresa la URL del stream">
+        <button onclick="playCustomStream()">Reproducir</button>
     </div>
-    
-    
-    
-    
-    
-    
-    
+
+    <!-- Botones de control para cambiar el stream -->
 </div>
 
 <script>
@@ -102,8 +124,14 @@
         }
     }
 
-    // Cargar el primer stream por defecto
-    
+    function playCustomStream() {
+        const url = document.getElementById('streamUrl').value;
+        if (url) {
+            playStream(url);
+        } else {
+            alert('Por favor, ingresa una URL válida.');
+        }
+    }
 </script>
 
 </body>

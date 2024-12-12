@@ -68,6 +68,13 @@
         "logo": "espn+.png",
         "urls": "https://cxvpy2s.la10tv.com/espnpremium/tracks-v1a1/mono.m3u8?token=a22475cfc7b14033d9954e68302a94d9bea49834-fe-1734007390-1733971390",
         "categoria": "Deporte"
+    },
+
+    {
+        "nombre": "TYC Sports",
+        "logo": "tycsports.png",
+        "urls": "https://ag9wzq.la10tv.com/tycsports/tracks-v1a1/mono.m3u8?token=7f7106ccb221f05ccd831a40c1f88d796e33043d-dd-1734009611-1733973611",
+        "categoria": "Deporte"
     }
 
     

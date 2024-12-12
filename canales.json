@@ -61,20 +61,6 @@
         "logo": "TRECE.JPG",
         "urls": "https://live-01-02-eltrece.vodgc.net/eltrecetv/index.m3u8?PlaylistM3UCL",
         "categoria": "Noticias"
-    },
-
-    {
-        "nombre": "MTV POP",
-        "logo": "MTV.JPG", 
-        "urls": "http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6047fbdbbb776a0007e7f2ff/master.m3u8?advertisingId=%7BPSID%7D&appVersion=unknown&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&us_privacy=1YNY",
-        "categoria": "Entretenimiento"
-    },
-
-    {
-        "nombre": "Locomotion TV",
-        "logo": "LOCO.JPG", 
-        "urls": "http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6047fbdbbb776a0007e7f2ff/master.m3u8?advertisingId=%7BPSID%7D&appVersion=unknown&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&us_privacy=1YNY",
-        "categoria": "Entretenimiento"
     }
 
     

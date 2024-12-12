@@ -1,0 +1,350 @@
+body {
+    background-color: #f4efef;  /* Color de fondo de la página */
+    font-family: 'Roboto', sans-serif;  /* Fuente del texto */
+    margin: 0;  /* Elimina el margen por defecto del body */
+    padding-top: 60px; /* Espacio para la barra de navegación */
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0px 3px 3px rgba(84, 83, 83, 0.268);
+    min-height: 60px; /* Establece una altura mínima para la barra */
+}
+
+.acomodar {
+    display: flex;
+    justify-content: space-between;
+    z-index: 101;
+    top: 0;
+    position: fixed;
+    min-height: 60px;
+    align-items: center;
+    max-width: 1300px;
+    width: 100%; /* Asegúrate de que ocupe el ancho completo disponible */
+}
+
+.acomodar a{
+    text-decoration: none; /* Quita el subrayado */
+}
+
+.navbar-title {
+    font-size: 50px; /* Tamaño de fuente */
+    color: #0cc5e2; /* Color del texto */
+    margin: 40px; /* Sin margen para el título */
+    margin-top: 0px;
+    margin-bottom: 0px;    
+}
+
+.navbar-title:hover{
+    color: #5feaff;
+}
+
+.navbar input{
+    margin-right: 20px;
+}
+
+.navbar img {
+    width: 60px;
+    height: auto;
+}
+
+.search-bar {
+    padding: 8px; /* Espacio interno */
+    border-radius: 4px; /* Bordes redondeados */
+    border: 1px solid #ccc; /* Borde ligero */
+    width: 200px; /* Ancho del buscador */
+}
+
+/* Ocultar imagen y barra de búsqueda en pantallas pequeñas */
+
+
+.header {
+    text-align: center;  /* Centra el texto en el encabezado */
+    margin: 20px 0;  /* Espacio arriba y abajo del encabezado */
+    margin-bottom:  0px;
+}
+
+.header h2 {
+    font-size: 2em;  /* Tamaño de la fuente para el encabezado */
+    color: #0cc5e2;  /* Color del texto del encabezado */
+    margin: 0;  /* Sin margen por defecto */
+}
+
+.header p {
+    font-size: 1.3em;  /* Tamaño de la fuente para la descripción */
+    color: #555;  /* Color del texto de la descripción */
+    margin: 10px ;  /* Margen arriba y abajo de la descripción */
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;  /* Permite que los elementos se ajusten */
+    justify-content: center;  /* Centra los elementos horizontalmente */
+    margin: 40px auto;  /* Espacio fuera del contenedor (40px arriba y abajo) y centrado */
+    margin-top: 0px;
+    padding: 10px;  /* Espacio interno dentro del contenedor */
+    max-width: 1500px;  /* Ancho máximo para que no se extienda demasiado en pantallas grandes */
+}
+
+.card {
+    background-color: #ffffffcf;  /* Color de fondo de la tarjeta */
+    border: 1px solid #0cc5e2;  /* Color del borde */
+    border-radius: 8px;  /* Bordes redondeados */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);  /* Sombra */
+    padding: 20px;  /* Espacio interno */
+    margin: 15px;   /* Espacio externo entre tarjetas */
+    width: 200px;   /* Ancho de la tarjeta */
+    text-align: center;  /* Centra el texto dentro de la tarjeta */
+    transition: transform 0.3s ease;  /* Transición para el efecto hover */
+    min-height: 310px;  /* Altura mínima para mantener uniformidad */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  /* Espacia los elementos de manera uniforme */
+}
+
+.card h2 {
+    color: #0cc5e2;
+    font-size: 20px;
+    font-weight: bold;
+    min-height: 50px; /* Establece un alto mínimo para los títulos */
+    margin-bottom: 10px;
+}
+
+.card img {
+    width: 150px;               /* Ancho fijo */
+    height: 150px;              /* Altura fija */
+    object-fit: contain;        /* Mantiene toda la imagen dentro del cuadro */
+    display: block;             /* Asegura que las imágenes se comporten como bloques */
+    margin: 0 auto 10px;        /* Centra la imagen y da espacio abajo */
+    border-radius: 20px;        /* Bordes redondeados para las imágenes */
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+    margin: 0 0 10px 0;
+    flex-grow: 1; /* Permite que la descripción use espacio disponible */
+}
+
+.button {
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #0cc5e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #009fb0;
+}
+
+
+.button {
+    background-color: #0cc5e2;  /* Color del botón */
+    color: white;  /* Color del texto del botón */
+    padding: 10px 20px;  /* Espaciado interno del botón */
+    border: none;  /* Sin borde */
+    border-radius: 5px;  /* Bordes redondeados del botón */
+    cursor: pointer;  /* Cambia el cursor al pasar el mouse */
+}
+
+.button:hover {
+    background-color: rgb(0, 0, 0);  /* Cambio de color al pasar el mouse */
+}
+
+
+.grid-container p {
+    font-size: 14px;
+    color: #9f9f9f;
+    margin: 0 0 10px 0;
+    flex-grow: 1; /* Permite que la descripción use espacio disponible */
+}
+
+
+.card:hover {
+    transform: scale(1.05);  /* Efecto de aumento al pasar el mouse */
+}
+
+.burger{
+    display: none;
+}
+
+
+@media (max-width: 990px) {
+    .selector{ 
+        display: none;
+    }
+    .burger{
+        display:block;
+        position: absolute;
+        font-size: 25px;
+        background-color: white;
+        border: 0px;
+        cursor: pointer; /* Cambia el cursor al pasar el mouse */
+        top: 0;
+        right: 0;
+        margin: 20px;
+        margin-top: 11px;
+    }
+
+    .botons{
+        display: block;
+        
+
+    }
+
+    .burger:hover {
+        color: #0cc5e2;
+    }
+    .acomodar{
+        justify-content: center;
+    }
+    
+}
+
+@media (max-width: 400px) {
+    .navbar-title{
+        font-size: 32px;
+        margin: 0px;
+    }
+}
+
+
+ul{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border: 1px solid rgb(33, 142, 166);
+    padding-left: 0px;
+}
+
+li {
+    background: rgb(249, 251, 252);
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    
+    
+  }
+
+h3{
+    font-size: 30px;
+    color: #0cc5e2;
+    text-align: center;
+    
+}
+
+.ksk-tv-section {
+    background-color: #f9f9f9; /* Color de fondo claro */
+    padding: 20px 20px 20px 40px; /* Espacio interno */
+    margin: 20px 20px 30px 20px; /* Margen arriba y abajo */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 1300px;
+    margin-left: auto; /* Cwentra el contenedor */
+    margin-right: auto; /* Centra el contenedor */
+}
+
+.ksk-tv-content {
+    margin-bottom: 30px; /* Espacio entre secciones */
+}
+
+.ksk-tv-content h4 {
+    font-size: 26px; /* Tamaño de la fuente del título */
+    color: #0cc5e2; /* Color del texto */
+    margin-bottom: 10px; /* Espacio debajo del título */
+}
+
+.ksk-tv-content p {
+    font-size: 19px; /* Tamaño de la fuente del párrafo */
+    color: #555; /* Color del texto */
+    line-height: 1.6; /* Altura de línea para mejor legibilidad */
+}
+
+
+
+
+.footer {
+    display: flex;
+    justify-content: center; /* Centra los elementos en la barra */
+    align-items: center;
+    background-color: #1d2121; /* Color de fondo */
+    padding: 10px 20px; /* Espaciado interno */
+    bottom: 0; /* Coloca la barra en la parte inferior */
+    box-shadow: 0px -3px 3px rgba(0, 0, 0, 0.268); /* Sombra */
+    min-height: 30px; /* Establece una altura mínima para la barra */
+    flex-direction: column
+}
+
+.selector{
+    margin: 40px; /* Sin margen para el título */
+    margin-top: 0px;
+    margin-bottom: 0px; 
+}
+
+.selector button{
+    background-color: transparent;
+    border: none; /* Sin borde */
+    color: #434343; /* Color del texto */
+    padding: 0px 15px; /* Espaciado interno */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+
+}
+
+.selector button:hover{
+    color: #0cc5e2;
+}
+
+.footer p{
+    color: #cecece8a;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 2PX;
+    margin-bottom: 3PX;
+}
+
+
+h3{
+    font-size: 30px;
+    color: #0cc5e2;
+    text-align: center;
+    padding-inline: 60PX;
+    border-bottom: 1PX SOLID white;
+    margin-bottom: 5PX;
+    margin-top: 20px;
+
+}
+
+
+.botons button{
+    background-color: transparent;
+    border: none; /* Sin borde */
+    color: #434343; /* Color del texto */
+    padding: 0px 15px; /* Espaciado interno */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+
+}
+
+.botons button:hover{
+    color: #0cc5e2;
+}
+
+.botons{
+    display: none;
+}

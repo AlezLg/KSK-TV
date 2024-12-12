@@ -1,0 +1,84 @@
+[
+
+    {
+        "nombre": "Azteca Internacional",
+        "logo": "Azteca.png", 
+        "urls": "https://azt-mun.otteravision.com/azt/mun/mun.m3u8",
+        "categoria": "Entretenimiento"
+    },
+    {
+        "nombre": "Las Estrellas",
+        "logo": "star.png",
+        "urls": "https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index.m3u8",
+        "categoria": "Entretenimiento"
+    },
+
+    {
+        "nombre": "La Liga TV",
+        "logo": "Laliga.png",
+        "urls": "https://drjpy7suzu4c5.cloudfront.net/out/v1/0c06db0274c04e64ab6ae0450f5fbda8/index_6.m3u8",
+        "categoria": "Deporte"
+    },
+    
+    {
+        "nombre": "Sky Sports",
+        "logo": "Skyports.jpg",
+        "urls": "https://drjpy7suzu4c5.cloudfront.net/out/v1/0c06db0274c04e64ab6ae0450f5fbda8/index_6.m3u8",
+        "categoria": "Deporte"
+    },
+
+
+    {
+        "nombre": "Deporte Tv",
+        "logo": "DTV.PNG",
+        "urls": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=5999",
+        "categoria": "Deporte"
+    },
+
+    {
+        "nombre": "TN Argentina",
+        "logo": "TNA.JPG",
+        "urls": "https://live-01-01-tn.vodgc.net/TN24/index.m3u8",
+        "categoria": "Noticias"
+    },
+    
+    {
+        "nombre": "Net Tv",
+        "logo": "Net.png", 
+        "urls": "https://unlimited1-us.dps.live/nettv/nettv.smil/nettv/livestream2/chunks.m3u8",
+        "categoria": "Entretenimiento"
+    },
+
+    {
+        "nombre": "Garage Tv",
+        "logo": "Garage.png", 
+        "urls": "https://stream1.sersat.com/hls/garagetv.m3u8",
+        "categoria": "Entretenimiento"
+    },
+
+    {
+        "nombre": "El trece",
+        "logo": "TRECE.JPG",
+        "urls": "https://live-01-02-eltrece.vodgc.net/eltrecetv/index.m3u8?PlaylistM3UCL",
+        "categoria": "Noticias"
+    },
+
+    {
+        "nombre": "MTV POP",
+        "logo": "MTV.JPG", 
+        "urls": "http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6047fbdbbb776a0007e7f2ff/master.m3u8?advertisingId=%7BPSID%7D&appVersion=unknown&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&us_privacy=1YNY",
+        "categoria": "Entretenimiento"
+    },
+
+    {
+        "nombre": "Locomotion TV",
+        "logo": "LOCO.JPG", 
+        "urls": "http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6047fbdbbb776a0007e7f2ff/master.m3u8?advertisingId=%7BPSID%7D&appVersion=unknown&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&us_privacy=1YNY",
+        "categoria": "Entretenimiento"
+    }
+
+    
+]
+
+
+

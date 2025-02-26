@@ -13,7 +13,7 @@
         "categoria": "Entretenimiento"
     },
 
-    
+
     {
         "nombre": "Sky Sports",
         "logo": "Skyports.jpg",
@@ -112,6 +112,20 @@
         "logo": "variedtv.png",
         "urls": "https://cloud5.streaminglivehd.com:3874/hybrid/play.m3u8?WebM3UCL",
         "categoria": "Kids"
+    },
+
+    {
+        "nombre": "Locomotion",
+        "logo": "Locomotion.png",
+        "urls": "https://cloud5.streaminglivehd.com:3874/hybrid/play.m3u8?WebM3UCL",
+        "categoria": "Kids"
+    },
+
+    {
+        "nombre": "Holvet",
+        "logo": "Holvet.png",
+        "urls": "https://unlimited6-cl.dps.live/holvoettv/holvoettv.smil/playlist.m3u8?PlaylistM3UCL",
+        "categoria": "Noticias"
     }
 
 ]

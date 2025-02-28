@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
                     card.querySelector('button').addEventListener('click', () => {
                         const urls = JSON.stringify(canal.urls);
-                        window.location.href = `assents/pages/reproductor.html?urls=${encodeURIComponent(urls)}&nombre=${encodeURIComponent(canal.nombre)}`;
+                        window.location.href = `../../reproductor.html?urls=${encodeURIComponent(urls)}&nombre=${encodeURIComponent(canal.nombre)}`;
                     });
 
                     gridContainer.appendChild(card); // Agregar la tarjeta al contenedor

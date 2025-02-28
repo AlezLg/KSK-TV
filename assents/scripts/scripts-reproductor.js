@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     card.classList.add('card');
 
                     card.innerHTML = `
-                        <img src="../logos/${canal.logo}" alt="Logo de ${canal.nombre}" onerror="this.src='logos/default_logo.png'">
+                        <img src="assents/logos/${canal.logo}" alt="Logo de ${canal.nombre}" onerror="this.src='logos/default_logo.png'">
                         <h2>${canal.nombre}</h2>
                         <p>Ver ${canal.nombre} online en vivo y en directo.</p>
                         <button class="button">VER CANAL</button>
@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     card.querySelector('button').addEventListener('click', () => {
                         const urls = JSON.stringify(canal.urls);
-                        window.location.href = `../pages/reproductor.html?urls=${encodeURIComponent(urls)}&nombre=${encodeURIComponent(canal.nombre)}`;
+                        window.location.href = `/reproductor.html?urls=${encodeURIComponent(urls)}&nombre=${encodeURIComponent(canal.nombre)}`;
                     });
 
                     gridContainer.appendChild(card); // Agregar la tarjeta al contenedor
@@ -75,11 +75,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
         })
     
-        
-
-
     
     console.log(canalNombre)
     console.log(canalUrlsParam)
     playStream(canalUrls)
+    
 });

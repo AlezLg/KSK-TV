@@ -1,6 +1,6 @@
 # 🎬 **Canales - Plataforma de Streaming**  
 
-<img src="https://github.com/AlezLg/KSK-TV/blob/main/assents/img/CELU.png?raw=true" height="300px" aling="right">
+<img src="https://github.com/AlezLg/KSK-TV/blob/main/assents/img/CELU.png?raw=true" height="300px" align="right">
 
 📡 Una plataforma sencilla para visualizar canales y gestionar su reproducción en la web.  
 

@@ -4,7 +4,7 @@
 
 🌍 **[🔗 Acceder a la Plataforma](https://ksk-tv.netlify.app)**  
 
-<img src="https://github.com/AlezLg/KSK-TV/blob/main/assents/img/CELU.png?raw=true" wight="50px">
+<img src="https://github.com/AlezLg/KSK-TV/blob/main/assents/img/CELU.png?raw=true" height="50px">
 
 ---
 
